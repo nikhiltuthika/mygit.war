@@ -4,21 +4,9 @@
          http://maven.apache.org/xsd/maven-4.0.0.xsd">  
   
   <modelVersion>4.0.0</modelVersion>  
-  <groupId>com.java-1</groupId>  
-  <artifactId>my-app-1</artifactId>
+  <groupId>com.web-1</groupId>  
+  <artifactId>my-webapp-1</artifactId>
   <version>1</version>  
   <packaging>war</packaging>
 
-  <build>
-    <plugins>
-        <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-war-plugin</artifactId>
-            <version>3.4.0</version>
-            <configuration>
-                <webXml>src/main/webapp/WEB-INF/web.xml</webXml>
-            </configuration>
-        </plugin>
-    </plugins>
-</build>       
-</project>
+  
